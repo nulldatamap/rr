@@ -1,0 +1,14 @@
+[package]
+name = "jumper"
+version = "0.1.0"
+authors = ["Nulldata <nulldatamap@gmail.com>"]
+
+[dependencies]
+genmesh = "*"
+cgmath = "*"
+nalgebra = "*"
+ncollide = "*"
+
+[dependencies.amethyst]
+git = "https://github.com/amethyst/amethyst"
+branch = "develop"
